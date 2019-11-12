@@ -1,9 +1,3 @@
-fullName = "Samantha Mae L. De Las Nieves"
-spiritAnimal = "dolphin"
-reason = ""
-hobby = ""
-prof = ""
-
 data = {"fullName": " Samantha Mae L. De Las Nieves",
 	"spiritAnimal" : " dolphin",
 	"reason" : "it can swim",
