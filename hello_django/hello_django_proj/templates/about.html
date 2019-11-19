@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block title %} About 
+{% endblock %}
+
+{% block content %}
+<head>
+	<style>
+		body {
+			background-color: #f1ce3e;
+			font: 12px Roboto Mono;
+		}
+		#header {
+			background-image: url(https://66.media.tumblr.com/4a4c944ed042d42c1fb01550fe56f583/tumblr_pgjzgkNvfp1xoe35eo5_500.png);
+		}
+		h2 {
+			color:rgba(0, 0, 0, 0.486));
+		}
+		h5{
+			font-size: 1em;
+		}
+
+	</style>
+	<header>
+		<div id="header" class="jumbotron text-center" style="margin-bottom:0">
+			<h1>Welcome to my Blog!</h1>
+			<p>huhu</p>
+		</div>
+	</header>
+	<div class="container" style="margin-top:30px">
+	<div class="row" >
+		<div class="col-sm-4">
+		<h2 class="font-weight-bolder">About Me</h2>
+		<h5>Insert Photo:</h5>
+		<input type="file" class="form-control-file" id="exampleFormControlFile1">
+
+		<hr class="d-sm-none">
+		</div>
+
+		<div class="col-sm-8">
+				<h2>uwu</h2>
+				<h5>Insert photo:</h5>
+				<input type="file" class="form-control-file" id="exampleFormControlFile1">
+				<br>
+				<h2>TITLE HEADING</h2>
+				<h5>blog chuhcu</h5>
+				<div class="fakeimg">Fake Image</div>
+				<p>Some text..</p>
+				<p>anek</p>
+			</div>
+			</div>
+		</div>
+</head>
+{% endblock %} 
